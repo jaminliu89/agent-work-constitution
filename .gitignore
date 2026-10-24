@@ -1,0 +1,8 @@
+# Local editors and temporary files
+.DS_Store
+*.swp
+*.swo
+*.tmp
+.env
+.env.*
+!.env.example
