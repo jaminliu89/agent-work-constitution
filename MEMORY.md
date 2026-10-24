@@ -8,3 +8,6 @@ This is a public, curated record of durable project decisions. Do not store priv
 - Separate universal instructions (`rules/`) from the repository's own contribution guidance (`AGENTS.md`) and the example project templates (`templates/`).
 - English and Simplified Chinese are first-class; all public claims must remain testable and accurate.
 - No automatic new-repository creation or public GitHub publication is implied by preparing these files.
+
+## 2026-10-24 — Publication workflow lesson
+- For multi-file initial releases via GitHub APIs, create one complete Git tree, commit it, update the branch ref, and verify the remote tree plus representative file contents. A successful intermediate API response is not proof that the publication completed; recover from partial failures against the actual branch state.
